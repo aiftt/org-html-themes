@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700");
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url("https://fonts.font.im/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700");
+@import url("https://cdn.bootcdn.net/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css");
 
 h1,h2,h3,h4,h5,h6,legend{
     font-family:"Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
@@ -1134,7 +1134,7 @@ h2.footnotes{
     margin-bottom: 24px;
     font-family:"Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif}
 
-#org-div-home-and-up { 
+#org-div-home-and-up {
     text-align: right;
     padding-right: 10pt;
 }
