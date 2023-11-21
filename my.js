@@ -8,10 +8,10 @@ window.onload = function () {
     if (lang === 'emacs-lisp') {
       lang = 'lisp'
     }
-    $(this).addClass('language-' + lang)
+    // $(this).addClass('language-' + lang)
 
     var text = $(el).text()
-    $(el).html(`<code></code>`)
+    $(el).html(`<code class="language-${lang}"></code>`)
     $(el).find('code').text(text)
   })
   // hljs.highlightAll()
