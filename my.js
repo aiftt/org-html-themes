@@ -11,7 +11,8 @@ window.onload = function () {
     $(this).addClass('language-' + lang)
 
     var text = $(el).text()
-    $(el).html('<code>' + text + '</code>')
+    $(el).html(`<code></code>`)
+    $(el).find('code').text(text)
   })
   hljs.highlightAll()
 }
