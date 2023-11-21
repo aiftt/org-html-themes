@@ -14,5 +14,5 @@ window.onload = function () {
     $(el).html(`<code></code>`)
     $(el).find('code').text(text)
   })
-  hljs.highlightAll()
+  // hljs.highlightAll()
 }
