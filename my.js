@@ -1,9 +1,13 @@
 window.onload = function () {
   $('.src').each(function () {
-    const el = $(this).get(0)
+    var el = $(this).get(0)
     var lang =
       el.className.trim()
       .replace(/^src\s+src-/, '')
+
+    if (lang === 'emacs-lisp') {
+      lang = 'lisp'
+    }
     $(this).addClass('language-' + lang)
 
     var text = $(el).text()
