@@ -1,3 +1,5 @@
+document.title = '若叶知秋'
+
 window.onload = function () {
   $('.src').each(function () {
     var el = $(this).get(0)
