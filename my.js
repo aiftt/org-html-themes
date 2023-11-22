@@ -19,7 +19,7 @@ window.onload = function () {
     $(el).find('code').text(text)
   })
 
-  $(document.body).append(`<script src="https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/prism.min.js"></script>`)
+  $(document.body).append(`<script src="https://unpkg.com/prismjs@1.29.0/prism.js"></script>`)
   $(document.body).append(`<script src="https://unpkg.com/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>`)
   // hljs.highlightAll()
 }
