@@ -14,5 +14,7 @@ window.onload = function () {
     $(el).html(`<code class="language-${lang}"></code>`)
     $(el).find('code').text(text)
   })
+
+  $(body).append(`<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/components/prism-core.min.js" integrity="sha512-x0aNx8s5fNTSk7iaTiSuUtz6vbT7gtGjk+Dotp17u4TmUEbJUwNMUFKxMBlnMQ1+N8E5exPHvRcF1yoxJ8b/iA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>`)
   // hljs.highlightAll()
 }
