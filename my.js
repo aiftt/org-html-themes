@@ -9,6 +9,8 @@ window.onload = function () {
 
     if (lang === 'emacs-lisp') {
       lang = 'lisp'
+    } else if (lang === 'html') {
+      lang = 'markup'
     }
     // $(this).addClass('language-' + lang)
 
