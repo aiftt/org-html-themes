@@ -15,7 +15,7 @@ window.onload = function () {
     // $(this).addClass('language-' + lang)
 
     var text = $(el).text()
-    $(el).html(`<code class="language-${lang}"></code>`)
+    $(el).attr('data-download-link').attr('data-download-link-label', '下载').html(`<code class="language-${lang}"></code>`)
     $(el).find('code').text(text)
   })
 
