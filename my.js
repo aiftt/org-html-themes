@@ -15,7 +15,7 @@ window.onload = function () {
     $(el).find('code').text(text)
   })
 
-  $(document.body).append(`<script src="https://unpkg.com/browse/prismjs@v1.x/components/prism-core.min.js"></script>`)
-  $(document.body).append(`<script src="https://unpkg.com/browse/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>`)
+  $(document.body).append(`<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.js"></script>`)
+  $(document.body).append(`<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>`)
   // hljs.highlightAll()
 }
